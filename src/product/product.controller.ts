@@ -8,7 +8,7 @@ export class ProductController {
 
     @Post('create')
     async create(@Body() dto: Omit<ProductController, '_id'>){
-        this.configService.get('TEST') // пример получения переменной env
+        // this.configService.get('TEST') // пример получения переменной env
 
     }
 
